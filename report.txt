@@ -1,0 +1,4 @@
+As of now, I've mainly just been able to read in the joint data.
+I started making the structs for the Bone, Joint, and Skeleton.
+After I figure out the best wat to do that, I'll focus on drawing the skeleton.
+Then I'll draw the bone cylinders, and deal with the bone picking over the next week.

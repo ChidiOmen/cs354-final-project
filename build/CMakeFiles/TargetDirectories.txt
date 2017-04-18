@@ -1,0 +1,6 @@
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles/edit_cache.dir
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles/rebuild_cache.dir
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles/utgraphicsutil.dir
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src/CMakeFiles/rebuild_cache.dir
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src/CMakeFiles/edit_cache.dir
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src/CMakeFiles/skinning.dir
