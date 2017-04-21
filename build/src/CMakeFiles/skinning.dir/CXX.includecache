@@ -72,11 +72,11 @@ GL/glext.h
 GL/glu.h
 -
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/bone_geometry.cc
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/bone_geometry.cc
 config.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/config.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/config.h
 bone_geometry.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/bone_geometry.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/bone_geometry.h
 fstream
 -
 iostream
@@ -90,7 +90,7 @@ glm/gtx/io.hpp
 glm/gtx/transform.hpp
 -
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/bone_geometry.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/bone_geometry.h
 ostream
 -
 iostream
@@ -106,17 +106,17 @@ glm/glm.hpp
 mmdadapter.h
 -
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/config.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/config.h
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/gui.cc
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/gui.cc
 gui.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/gui.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/gui.h
 config.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/config.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/config.h
 jpegio.h
 -
 bone_geometry.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/bone_geometry.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/bone_geometry.h
 iostream
 -
 debuggl.h
@@ -128,7 +128,7 @@ glm/gtc/matrix_transform.hpp
 glm/gtx/transform.hpp
 -
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/gui.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/gui.h
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -136,21 +136,21 @@ glm/gtc/matrix_transform.hpp
 GLFW/glfw3.h
 -
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/main.cc
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/main.cc
 GL/glew.h
 -
 dirent.h
 -
 bone_geometry.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/bone_geometry.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/bone_geometry.h
 procedure_geometry.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/procedure_geometry.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/procedure_geometry.h
 render_pass.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/render_pass.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/render_pass.h
 config.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/config.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/config.h
 gui.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/gui.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/gui.h
 algorithm
 -
 fstream
@@ -172,47 +172,47 @@ glm/gtx/io.hpp
 debuggl.h
 -
 shaders/default.vert
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/default.vert
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/default.vert
 shaders/default.geom
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/default.geom
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/default.geom
 shaders/default.frag
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/default.frag
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/default.frag
 shaders/floor.frag
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/floor.frag
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/floor.frag
 shaders/skeleton.frag
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/skeleton.frag
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/skeleton.frag
 shaders/skeleton.vert
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/skeleton.vert
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/skeleton.vert
 shaders/skeleton.geom
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/skeleton.geom
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/skeleton.geom
 shaders/cylinder.frag
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/cylinder.frag
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/cylinder.frag
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/procedure_geometry.cc
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/procedure_geometry.cc
 procedure_geometry.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/procedure_geometry.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/procedure_geometry.h
 bone_geometry.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/bone_geometry.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/bone_geometry.h
 config.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/config.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/config.h
 iostream
 -
 cmath
 -
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/procedure_geometry.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/procedure_geometry.h
 vector
 -
 glm/glm.hpp
 -
 bone_geometry.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/bone_geometry.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/bone_geometry.h
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/render_pass.cc
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/render_pass.cc
 GL/glew.h
 -
 render_pass.h
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/render_pass.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/render_pass.h
 iostream
 -
 debuggl.h
@@ -220,7 +220,7 @@ debuggl.h
 map
 -
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/render_pass.h
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/render_pass.h
 vector
 -
 string
@@ -232,19 +232,19 @@ functional
 material.h
 -
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/cylinder.frag
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/cylinder.frag
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/default.frag
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/default.frag
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/default.geom
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/default.geom
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/default.vert
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/default.vert
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/floor.frag
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/floor.frag
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/skeleton.frag
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/skeleton.frag
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/skeleton.geom
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/skeleton.geom
 
-/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/shaders/skeleton.vert
+/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/shaders/skeleton.vert
 

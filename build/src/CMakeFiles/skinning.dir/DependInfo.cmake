@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/bone_geometry.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src/CMakeFiles/skinning.dir/bone_geometry.cc.o"
-  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/gui.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src/CMakeFiles/skinning.dir/gui.cc.o"
-  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/main.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src/CMakeFiles/skinning.dir/main.cc.o"
-  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/procedure_geometry.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src/CMakeFiles/skinning.dir/procedure_geometry.cc.o"
-  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/render_pass.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src/CMakeFiles/skinning.dir/render_pass.cc.o"
+  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/bone_geometry.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src/CMakeFiles/skinning.dir/bone_geometry.cc.o"
+  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/gui.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src/CMakeFiles/skinning.dir/gui.cc.o"
+  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/main.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src/CMakeFiles/skinning.dir/main.cc.o"
+  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/procedure_geometry.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src/CMakeFiles/skinning.dir/procedure_geometry.cc.o"
+  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/render_pass.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src/CMakeFiles/skinning.dir/render_pass.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,7 +23,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles/utgraphicsutil.dir/DependInfo.cmake"
+  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/CMakeFiles/utgraphicsutil.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

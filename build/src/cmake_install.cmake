@@ -1,4 +1,4 @@
-# Install script for directory: /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src
+# Install script for directory: /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

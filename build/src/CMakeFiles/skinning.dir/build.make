@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning
+CMAKE_SOURCE_DIR = /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build
+CMAKE_BINARY_DIR = /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/skinning.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/skinning.dir/flags.make
 
 src/CMakeFiles/skinning.dir/render_pass.cc.o: src/CMakeFiles/skinning.dir/flags.make
 src/CMakeFiles/skinning.dir/render_pass.cc.o: ../src/render_pass.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/skinning.dir/render_pass.cc.o"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/skinning.dir/render_pass.cc.o -c /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/render_pass.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/skinning.dir/render_pass.cc.o"
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/skinning.dir/render_pass.cc.o -c /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/render_pass.cc
 
 src/CMakeFiles/skinning.dir/render_pass.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/skinning.dir/render_pass.cc.i"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/render_pass.cc > CMakeFiles/skinning.dir/render_pass.cc.i
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/render_pass.cc > CMakeFiles/skinning.dir/render_pass.cc.i
 
 src/CMakeFiles/skinning.dir/render_pass.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/skinning.dir/render_pass.cc.s"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/render_pass.cc -o CMakeFiles/skinning.dir/render_pass.cc.s
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/render_pass.cc -o CMakeFiles/skinning.dir/render_pass.cc.s
 
 src/CMakeFiles/skinning.dir/render_pass.cc.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/skinning.dir/render_pass.cc.o.provides.build: src/CMakeFiles/skin
 
 src/CMakeFiles/skinning.dir/procedure_geometry.cc.o: src/CMakeFiles/skinning.dir/flags.make
 src/CMakeFiles/skinning.dir/procedure_geometry.cc.o: ../src/procedure_geometry.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/skinning.dir/procedure_geometry.cc.o"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/skinning.dir/procedure_geometry.cc.o -c /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/procedure_geometry.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/skinning.dir/procedure_geometry.cc.o"
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/skinning.dir/procedure_geometry.cc.o -c /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/procedure_geometry.cc
 
 src/CMakeFiles/skinning.dir/procedure_geometry.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/skinning.dir/procedure_geometry.cc.i"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/procedure_geometry.cc > CMakeFiles/skinning.dir/procedure_geometry.cc.i
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/procedure_geometry.cc > CMakeFiles/skinning.dir/procedure_geometry.cc.i
 
 src/CMakeFiles/skinning.dir/procedure_geometry.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/skinning.dir/procedure_geometry.cc.s"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/procedure_geometry.cc -o CMakeFiles/skinning.dir/procedure_geometry.cc.s
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/procedure_geometry.cc -o CMakeFiles/skinning.dir/procedure_geometry.cc.s
 
 src/CMakeFiles/skinning.dir/procedure_geometry.cc.o.requires:
 
@@ -107,16 +107,16 @@ src/CMakeFiles/skinning.dir/procedure_geometry.cc.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/skinning.dir/main.cc.o: src/CMakeFiles/skinning.dir/flags.make
 src/CMakeFiles/skinning.dir/main.cc.o: ../src/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/skinning.dir/main.cc.o"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/skinning.dir/main.cc.o -c /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/skinning.dir/main.cc.o"
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/skinning.dir/main.cc.o -c /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/main.cc
 
 src/CMakeFiles/skinning.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/skinning.dir/main.cc.i"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/main.cc > CMakeFiles/skinning.dir/main.cc.i
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/main.cc > CMakeFiles/skinning.dir/main.cc.i
 
 src/CMakeFiles/skinning.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/skinning.dir/main.cc.s"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/main.cc -o CMakeFiles/skinning.dir/main.cc.s
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/main.cc -o CMakeFiles/skinning.dir/main.cc.s
 
 src/CMakeFiles/skinning.dir/main.cc.o.requires:
 
@@ -131,16 +131,16 @@ src/CMakeFiles/skinning.dir/main.cc.o.provides.build: src/CMakeFiles/skinning.di
 
 src/CMakeFiles/skinning.dir/gui.cc.o: src/CMakeFiles/skinning.dir/flags.make
 src/CMakeFiles/skinning.dir/gui.cc.o: ../src/gui.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/skinning.dir/gui.cc.o"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/skinning.dir/gui.cc.o -c /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/gui.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/skinning.dir/gui.cc.o"
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/skinning.dir/gui.cc.o -c /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/gui.cc
 
 src/CMakeFiles/skinning.dir/gui.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/skinning.dir/gui.cc.i"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/gui.cc > CMakeFiles/skinning.dir/gui.cc.i
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/gui.cc > CMakeFiles/skinning.dir/gui.cc.i
 
 src/CMakeFiles/skinning.dir/gui.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/skinning.dir/gui.cc.s"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/gui.cc -o CMakeFiles/skinning.dir/gui.cc.s
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/gui.cc -o CMakeFiles/skinning.dir/gui.cc.s
 
 src/CMakeFiles/skinning.dir/gui.cc.o.requires:
 
@@ -155,16 +155,16 @@ src/CMakeFiles/skinning.dir/gui.cc.o.provides.build: src/CMakeFiles/skinning.dir
 
 src/CMakeFiles/skinning.dir/bone_geometry.cc.o: src/CMakeFiles/skinning.dir/flags.make
 src/CMakeFiles/skinning.dir/bone_geometry.cc.o: ../src/bone_geometry.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/skinning.dir/bone_geometry.cc.o"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/skinning.dir/bone_geometry.cc.o -c /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/bone_geometry.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/skinning.dir/bone_geometry.cc.o"
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/skinning.dir/bone_geometry.cc.o -c /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/bone_geometry.cc
 
 src/CMakeFiles/skinning.dir/bone_geometry.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/skinning.dir/bone_geometry.cc.i"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/bone_geometry.cc > CMakeFiles/skinning.dir/bone_geometry.cc.i
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/bone_geometry.cc > CMakeFiles/skinning.dir/bone_geometry.cc.i
 
 src/CMakeFiles/skinning.dir/bone_geometry.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/skinning.dir/bone_geometry.cc.s"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src/bone_geometry.cc -o CMakeFiles/skinning.dir/bone_geometry.cc.s
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && /lusr/opt/gcc-5.2.0/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src/bone_geometry.cc -o CMakeFiles/skinning.dir/bone_geometry.cc.s
 
 src/CMakeFiles/skinning.dir/bone_geometry.cc.o.requires:
 
@@ -202,8 +202,8 @@ bin/skinning: /usr/lib/x86_64-linux-gnu/libjpeg.so
 bin/skinning: /usr/lib/x86_64-linux-gnu/libGL.so
 bin/skinning: /usr/lib/x86_64-linux-gnu/libjpeg.so
 bin/skinning: src/CMakeFiles/skinning.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/skinning"
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/skinning.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/skinning"
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/skinning.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/skinning.dir/build: bin/skinning
@@ -219,10 +219,10 @@ src/CMakeFiles/skinning.dir/requires: src/CMakeFiles/skinning.dir/bone_geometry.
 .PHONY : src/CMakeFiles/skinning.dir/requires
 
 src/CMakeFiles/skinning.dir/clean:
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src && $(CMAKE_COMMAND) -P CMakeFiles/skinning.dir/cmake_clean.cmake
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src && $(CMAKE_COMMAND) -P CMakeFiles/skinning.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/skinning.dir/clean
 
 src/CMakeFiles/skinning.dir/depend:
-	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/src /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src /v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/src/CMakeFiles/skinning.dir/DependInfo.cmake --color=$(COLOR)
+	cd /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/src /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src /v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/src/CMakeFiles/skinning.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/skinning.dir/depend
 

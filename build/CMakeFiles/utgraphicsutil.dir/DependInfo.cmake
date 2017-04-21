@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/lib/bitmap.cpp" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles/utgraphicsutil.dir/lib/bitmap.cpp.o"
-  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/lib/debuggl.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles/utgraphicsutil.dir/lib/debuggl.cc.o"
-  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/lib/jpegio.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles/utgraphicsutil.dir/lib/jpegio.cc.o"
-  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/lib/mmdadapter.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-project4/skinning/build/CMakeFiles/utgraphicsutil.dir/lib/mmdadapter.cc.o"
+  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/lib/bitmap.cpp" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/CMakeFiles/utgraphicsutil.dir/lib/bitmap.cpp.o"
+  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/lib/debuggl.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/CMakeFiles/utgraphicsutil.dir/lib/debuggl.cc.o"
+  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/lib/jpegio.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/CMakeFiles/utgraphicsutil.dir/lib/jpegio.cc.o"
+  "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/lib/mmdadapter.cc" "/v/filer4b/v38q001/ochidi/Documents/354/cs354-final-project/build/CMakeFiles/utgraphicsutil.dir/lib/mmdadapter.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
