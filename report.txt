@@ -1,4 +1,5 @@
-As of now, I've mainly just been able to read in the joint data.
-I started making the structs for the Bone, Joint, and Skeleton.
-After I figure out the best wat to do that, I'll focus on drawing the skeleton.
-Then I'll draw the bone cylinders, and deal with the bone picking over the next week.
+In the paper I found for the project, it talks about utilizing the lighting parameters of one vertex by looking at other nearby vertices. So I plan to try to implement a form of this where I take the final fragment colors of specific vertices, and use that same color for other vertices in positions that meet certain criteria. I think taking this approach will at least come close to the kind of flat shading seen in the article.
+
+I'm implementing my project on top of the code for the Linear Blend Skinning project because I understand the code, and it already came with a variety of models.
+
+As of now, I've tried implementing a simpler method to create the flat shading effect by taking the colors output by the fragment shader and limiting which numbers the RGB values can take on. I played around with this formula and put the results in the "pics" folder in my project. If the value is too small, the colors become very messy. I'll add more sophistication to this technique by calculating the actual RGB values and using them on other regions of the model like I mentioned in the first paragraph.
