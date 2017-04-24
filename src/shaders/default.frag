@@ -5,6 +5,7 @@ in vec4 vertex_normal;
 in vec4 light_direction;
 in vec4 camera_direction;
 in vec2 uv_coords;
+in vec4 frag_color;
 uniform vec4 diffuse;
 uniform vec4 ambient;
 uniform vec4 specular;
@@ -30,13 +31,14 @@ void main() {
 		dot_nl = clamp(dot_nl, 0.0, 1.0);
 		vec4 spec = specular * pow(max(0.0, dot(reflect(-light_direction, vertex_normal), camera_direction)), shininess);
 		color = clamp(dot_nl * color + vec3(ambient), 0.0, 1.0);
-		fragment_color = vec4(color, alpha);
-		fragment_color.r = floor(10.0 * fragment_color.r) / 10.0;
-		fragment_color.g = floor(10.0 * fragment_color.g) / 10.0;
-		fragment_color.b = floor(10.0 * fragment_color.b) / 10.0;
+		//fragment_color = vec4(color, alpha);
+		//fragment_color.r = floor(8.0 * fragment_color.r) / 8.0;
+		//fragment_color.g = floor(8.0 * fragment_color.g) / 8.0;
+		//fragment_color.b = floor(8.0 * fragment_color.b) / 8.0;
 	} else {
-		fragment_color = vec4(texcolor.rgb, alpha);
+		//fragment_color = vec4(texcolor.rgb, alpha);
 	}
 	//fragment_color = vec4(0.2, 0.2, 0.2, 0.5);
+	fragment_color = frag_color;
 }
 )zzz"
