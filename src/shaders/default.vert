@@ -18,15 +18,17 @@ out vec4 vs_camera_direction;
 out vec4 fragment_color;
 void main() {
 	gl_Position = vertex_position;
-	//gl_Position.x = floor(1.0 * gl_Position.x) / 1.0;
-	//gl_Position.y = floor(1.0 * gl_Position.y) / 1.0;
-	//gl_Position.z = floor(1.0 * gl_Position.z) / 1.0;
+	float w = 10.0;
+	gl_Position.x = floor(gl_Position.x / w) * w;
+	gl_Position.y = floor(gl_Position.y / w) * w;
+	gl_Position.z = floor(gl_Position.z / w) * w;
 	vs_light_direction = light_position - gl_Position;
 	vs_camera_direction = vec4(camera_position, 1.0) - gl_Position;
 	vec4 light_direction = normalize(light_position - gl_Position);
 	vec4 camera_direction = normalize(vec4(camera_position, 1.0) - gl_Position);
 	vs_normal = normal;
 	vs_uv = uv;
+	gl_Position = vertex_position;
 
 	vec3 texcolor = texture(textureSampler, vs_uv).xyz;
 	if (length(texcolor) == 0.0) {
@@ -35,10 +37,19 @@ void main() {
 		dot_nl = clamp(dot_nl, 0.0, 1.0);
 		vec4 spec = specular * pow(max(0.0, dot(reflect(-light_direction, normal), camera_direction)), shininess);
 		color = clamp(dot_nl * color + vec3(ambient), 0.0, 1.0);
-		fragment_color = vec4(color, alpha);
-		fragment_color.r = floor(10.0 * fragment_color.r) / 10.0;
-		fragment_color.g = floor(10.0 * fragment_color.g) / 10.0;
-		fragment_color.b = floor(10.0 * fragment_color.b) / 10.0;
+		float lum = 0.2126 * color.r + 0.7152 * color.g + 0.0722 * color.b;
+		//fragment_color = vec4(color, alpha);
+		if (lum <= 0.2) {
+			fragment_color = vec4(0.0, 0.0, 0.0, 1.0);
+		} else if (lum <= 0.4) {
+			fragment_color = vec4(0.2, 0.2, 0.2, 1.0);
+		} else if (lum <= 0.6) {
+			fragment_color = vec4(0.5, 0.5, 0.5, 1.0);
+		} else if (lum <= 0.8) {
+			fragment_color = vec4(0.8, 0.8, 0.8, 1.0);
+		} else {
+		 	fragment_color = vec4(1.0, 1.0, 1.0, 1.0);
+		}
 	} else {
 		fragment_color = vec4(texcolor.rgb, alpha);
 	}

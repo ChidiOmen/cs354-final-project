@@ -24,7 +24,6 @@ void main() {
 	vec3 c = gl_in[2].gl_Position.xyz;
 	vec3 u = normalize(b - a);
 	vec3 v = normalize(c - a);
-	frag_color = fragment_color[1];
 	face_normal = normalize(vec4(normalize(cross(u, v)), 0.0));
 	for (n = 0; n < gl_in.length(); n++) {
 		light_direction = normalize(vs_light_direction[n]);
@@ -32,6 +31,7 @@ void main() {
 		world_position = gl_in[n].gl_Position;
 		vertex_normal = vs_normal[n];
 		uv_coords = vs_uv[n];
+		frag_color = fragment_color[n];
 		gl_Position = projection * view * model * gl_in[n].gl_Position;
 		EmitVertex();
 	}
