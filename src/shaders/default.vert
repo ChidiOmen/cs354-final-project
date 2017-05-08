@@ -38,21 +38,23 @@ void main() {
 		vec4 spec = specular * pow(max(0.0, dot(reflect(-light_direction, normal), camera_direction)), shininess);
 		color = clamp(dot_nl * color + vec3(ambient), 0.0, 1.0);
 		float lum = 0.2126 * color.r + 0.7152 * color.g + 0.0722 * color.b;
-		//fragment_color = vec4(color, alpha);
+		vec4 fc = vec4(vec3(diffuse), alpha);
 		if (lum <= 0.2) {
-			fragment_color = vec4(0.0, 0.0, 0.0, 1.0);
+			fc = vec4(0.0, 0.0, 0.0, 1.0);
 		} else if (lum <= 0.4) {
-			fragment_color = vec4(0.2, 0.2, 0.2, 1.0);
+			fc = vec4(0.5*fc.r, 0.5*fc.g, 0.5*fc.b, 1.0);
 		} else if (lum <= 0.6) {
-			fragment_color = vec4(0.5, 0.5, 0.5, 1.0);
+			//do nothing
 		} else if (lum <= 0.8) {
-			fragment_color = vec4(0.8, 0.8, 0.8, 1.0);
+			fc = vec4(1.0-0.5*fc.r, 1.0-0.5*fc.g, 1.0-0.5*fc.b, 1.0);
 		} else {
-		 	fragment_color = vec4(1.0, 1.0, 1.0, 1.0);
+		 	fc = vec4(1.0, 1.0, 1.0, 1.0);
 		}
+		fragment_color = fc;
+		//fragment_color = vec4(color, alpha);
 	} else {
 		fragment_color = vec4(texcolor.rgb, alpha);
 	}
-	//fragment_color = vec4(0.2, 0.2, 0.2, 0.5);
+	//fragment_color = vec4(0.2, 0.2, 0.2, 1.0);
 }
 )zzz"

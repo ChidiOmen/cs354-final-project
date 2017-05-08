@@ -40,5 +40,8 @@ void main() {
 	}
 	//fragment_color = vec4(0.2, 0.2, 0.2, 0.5);
 	fragment_color = frag_color;
+	fragment_color.r = floor(10.0 * fragment_color.r) / 10.0;
+	fragment_color.g = floor(10.0 * fragment_color.g) / 10.0;
+	fragment_color.b = floor(10.0 * fragment_color.b) / 10.0;
 }
 )zzz"
